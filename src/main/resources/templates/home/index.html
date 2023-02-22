@@ -2,15 +2,15 @@
 <html lang="ja" xmlns:th="http://www.thymeleaf.org">
 
 <!-- ======= Head ======= -->
-<div th:replace="common/shoulder_fragment::head(title = 'SNSサイト - アカウント作成')"></div>
+<div th:replace="~{common/shoulder_fragment::head(title = 'SNSサイト - Home')}"></div>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <div th:replace="common/shoulder_fragment::header"></div>
+  <div th:replace="~{common/shoulder_fragment::header}"></div>
 
   <!-- ======= Sidebar ======= -->
-  <div th:replace="common/shoulder_fragment::sidebar"></div>
+  <div th:replace="~{common/shoulder_fragment::sidebar}"></div>
 
   <main id="main" class="main">
 
@@ -227,7 +227,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <div th:replace="common/shoulder_fragment::footer"></div>
+  <div th:replace="~{common/shoulder_fragment::footer}"></div>
 
 </body>
 
